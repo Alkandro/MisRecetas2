@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64772C371E939183003541D0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64772C361E939183003541D0 /* DetailViewController.swift */; };
+		648506FB1E986F9300DD23E1 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648506FA1E986F9300DD23E1 /* ReviewViewController.swift */; };
+		648508031E8D41A000DBD4F4 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648508021E8D41A000DBD4F4 /* Recipe.swift */; };
+		648508051E8D513A00DBD4F4 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648508041E8D513A00DBD4F4 /* RecipeCell.swift */; };
 		64A5068A1E8D2E2D005B6C1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A506891E8D2E2D005B6C1B /* AppDelegate.swift */; };
 		64A5068C1E8D2E2D005B6C1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A5068B1E8D2E2D005B6C1B /* ViewController.swift */; };
 		64A5068F1E8D2E2D005B6C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A5068D1E8D2E2D005B6C1B /* Main.storyboard */; };
 		64A506911E8D2E2D005B6C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A506901E8D2E2D005B6C1B /* Assets.xcassets */; };
 		64A506941E8D2E2D005B6C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A506921E8D2E2D005B6C1B /* LaunchScreen.storyboard */; };
+		64D1ADB51E95CFD800DFE360 /* RecipeDetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D1ADB41E95CFD800DFE360 /* RecipeDetailViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64772C361E939183003541D0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		648506FA1E986F9300DD23E1 /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		648508021E8D41A000DBD4F4 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		648508041E8D513A00DBD4F4 /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 		64A506861E8D2E2D005B6C1B /* Mis Recetas2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mis Recetas2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A506891E8D2E2D005B6C1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64A5068B1E8D2E2D005B6C1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,7 @@
 		64A506901E8D2E2D005B6C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64A506931E8D2E2D005B6C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64A506951E8D2E2D005B6C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D1ADB41E95CFD800DFE360 /* RecipeDetailViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		64A506881E8D2E2D005B6C1B /* Mis Recetas2 */ = {
 			isa = PBXGroup;
 			children = (
-				64A506891E8D2E2D005B6C1B /* AppDelegate.swift */,
 				64A5068B1E8D2E2D005B6C1B /* ViewController.swift */,
-				64A5068D1E8D2E2D005B6C1B /* Main.storyboard */,
-				64A506901E8D2E2D005B6C1B /* Assets.xcassets */,
+				648508021E8D41A000DBD4F4 /* Recipe.swift */,
+				64772C361E939183003541D0 /* DetailViewController.swift */,
+				64D1ADB41E95CFD800DFE360 /* RecipeDetailViewCell.swift */,
+				648506FA1E986F9300DD23E1 /* ReviewViewController.swift */,
+				648508041E8D513A00DBD4F4 /* RecipeCell.swift */,
 				64A506921E8D2E2D005B6C1B /* LaunchScreen.storyboard */,
 				64A506951E8D2E2D005B6C1B /* Info.plist */,
+				64A506901E8D2E2D005B6C1B /* Assets.xcassets */,
+				64A506891E8D2E2D005B6C1B /* AppDelegate.swift */,
+				64A5068D1E8D2E2D005B6C1B /* Main.storyboard */,
 			);
 			path = "Mis Recetas2";
 			sourceTree = "<group>";
@@ -96,6 +111,7 @@
 				TargetAttributes = {
 					64A506851E8D2E2D005B6C1B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KHHC924H7Q;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				648508031E8D41A000DBD4F4 /* Recipe.swift in Sources */,
+				64D1ADB51E95CFD800DFE360 /* RecipeDetailViewCell.swift in Sources */,
+				648506FB1E986F9300DD23E1 /* ReviewViewController.swift in Sources */,
 				64A5068C1E8D2E2D005B6C1B /* ViewController.swift in Sources */,
+				64772C371E939183003541D0 /* DetailViewController.swift in Sources */,
 				64A5068A1E8D2E2D005B6C1B /* AppDelegate.swift in Sources */,
+				648508051E8D513A00DBD4F4 /* RecipeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KHHC924H7Q;
 				INFOPLIST_FILE = "Mis Recetas2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AlejandroSklar.Mis-Recetas2";
@@ -272,6 +294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KHHC924H7Q;
 				INFOPLIST_FILE = "Mis Recetas2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AlejandroSklar.Mis-Recetas2";
@@ -299,6 +322,7 @@
 				64A5069A1E8D2E2D005B6C1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
